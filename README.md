@@ -67,10 +67,6 @@ Maching Learning Using the Following Models:
 - RMSE = 1,057.480
 - R^2 = 0.595
 
-- MAE on Test Data: 766.625 for Random Forest Model
-- MAE on Test Data: 804.117 for Linear Regression
-Based on MAE
-
   -  Final model was choosen is Linear Regression model
   - The Linear Regression model can explain about 56.7% of the variability in the target variable on the test data.
   -  This means that the model captures some of the patterns and relationships between the features (independent variables) and the target variable (dependent variable). 
