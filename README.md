@@ -28,6 +28,55 @@ To prepare this data, the data was cleaned, and the following processes were per
 - Low level size for the High
 ![image](https://github.com/uday-routhu/Prediction-of-Product-Sales/assets/24350354/75a4b1e5-37ce-4d8a-b6de-a2c62f02660f)
 
+###Explanatory Visuals
+- To visualize the data for explantory purposes, three bargraphs were chosen and one linegraph was chosen.
+- The bargraphs were chosen to show how the categories compare to each other. 
+- Finally, a linegraph was chosen to show the trend of outlet sales in different sizes
+![image](https://github.com/uday-routhu/Prediction-of-Product-Sales/assets/24350354/5ba06446-cc15-4465-b55e-c6971d1405c6)
+
+
+- This graph will tell us Item_type and its future predection
+- This graph shows to which item has sales and tells us its future predection 
+![image](https://github.com/uday-routhu/Prediction-of-Product-Sales/assets/24350354/b57cc8ed-11fb-46f1-bbe9-48abd619bd3b)
+
+Maching Learning Using the Following Models:
+
+- Linear Regression Model
+- Decision Tree Regressor Model
+- Tuned Decision Tree Regressor Model
+- Random Forest Regressor Model
+- Tuned Random Forest Regressor Model
+
+. Linear Regression Model (Testing Set):
+
+- MAE = 804.117
+- MSE = 1,194,326.151
+- RMSE = 1,092.852
+- R^2 = 0.567
+
+. Random Forest Regressor Model (Testing Set):
+- MAE = 766.625
+- MSE = 1,217,201.289
+- RMSE = 1,103.268
+- R^2 = 0.559
+
+. Tuned Random Forest Regressor Model (Testing Set):
+
+- MAE = 734.381
+- MSE = 1,118,263.806
+- RMSE = 1,057.480
+- R^2 = 0.595
+
+- MAE on Test Data: 766.625 for Random Forest Model
+- MAE on Test Data: 804.117 for Linear Regression
+Based on MAE
+
+. Final model was choosen is Linear Regression model
+. The Linear Regression model can explain about 56.7% of the variability in the target variable on the test data.
+. This means that the model captures some of the patterns and relationships between the features (independent variables) and the target variable (dependent variable). However, there is still some unexplained variability in the target variable that the model does not account for
+. The linear regression model shows a balanced performance between the training and test datasets, indicating that it has a reasonable fit to the data without significant signs of overfitting or underfitting.
+
+Using this model to make predictions about the best places to live and which careers to choose to earn the most money would not be a very reliable. Considering the previous regression metrics from how the model performed, there is a disparity between the R^2 score and also the Root Mean Squared Error that cannot be ignored.
 
 ## Recommendations
 
