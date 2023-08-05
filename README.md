@@ -69,7 +69,7 @@ Maching Learning Using the Following Models:
 
 -  Final model was choosen is Linear Regression model
 - The Linear Regression model can explain about 56.7% of the variability in the target variable on the test data.
--  This means that the model captures some of the patterns and relationships between the features (independent variables) and the target variable (dependent variable). 
+-  The linear regression model shows a balanced performance between the training and test datasets, indicating that it has a reasonable fit to the data without significant signs of overfitting or underfitting.. 
 
 Using this model to make predictions about the best places to live and which careers to choose to earn the most money would not be a very reliable. Considering the previous regression metrics from how the model performed, there is a disparity between the R^2 score and also the Root Mean Squared Error that cannot be ignored.
 
